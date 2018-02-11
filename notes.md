@@ -102,20 +102,43 @@ Use http://stevecat.net/table-magic/# to make easy markdown tables!
 
 #### Exercise 1
 
+Add a new Portfolio page. Create it as a draft. Then, publish it.
+
 #### Exercise 2
 
 10 minute mark: Take up 1, 2
 
 #### Exercise 3
 
+Create and edit the Archetype for Portfolio. Archetypes are the 
+
+https://gohugo.io/content-management/archetypes/
+
 #### Exercise 4
+
+Add an Archetype for Testimonials
 
 20 minute mark: Take up 3, 4
 
 #### Exercise 5
 
+Custom CSS
+
+Play around with the styling of the site. Under /static/css there is a custom.css file that you can use to override css template files.
+
+1. Change the theme style option to 'pink'
+2. Change the "Good Dogs" title in the sidebar to 36px and a different colour
+3. Add a box shadow to each dog portfolio image
+
+
 #### Exercise 6
 
+Custom CSS - overriding existing fonts with web fonts 
+
+Grab a couple of fonts from [Google Fonts](https://fonts.google.com/) and use them to override the fonts on your website. You'll want to edit just the title and body of each dog portfolio post.
+
 #### Exercise 7
+
+Image Metadata - 
 
 45 minute mark: Take up 5, 6, 7
