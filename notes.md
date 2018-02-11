@@ -1,17 +1,14 @@
+# Markdown
 
-Content Management
+## Content Management
 Hugo natively supports Markdown and Emacs Org-Mode, but there are additional formats such as asciidoc that are supported via external helpers
 
-https://www.markdownguide.org/cheat-sheet
+## Introduction to Markdown
 
-Introduction to Markdown
+- Markdown is a relatively new syntax. Developed in 2004 by John Gruber, markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As John Gruber writes on the Markdown site:
 
-
-Exercises
-Name your files as *.md or set markup=”markdown” in front matter
-
-
-- Markdown is a relatively new syntax. Developed in 2004 by John Gruber, Markdown refers to both (1) a way of formatting text files, as well as (2) a Perl utility to convert Markdown files into HTML.
+> The overriding design goal for Markdown's formatting syntax is to make it as readable as possible. 
+> The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions.
 
 - Plain text files have many advantages over other formats. For one, they are readable on virtually all devices, easy to understand and durable
 - By following Markdown syntax, you’ll be able to produce files that are both legible in plain text and ready to be styled on other platforms. Many blogging engines, static site generators, and sites like GitHub also support Markdown, and will render these files into HTML for display on the web. Additionally, tools like Pandoc can convert files into and out of Markdown.
@@ -21,7 +18,7 @@ Name your files as *.md or set markup=”markdown” in front matter
 - Many websites and publishing platforms also offer web-based editors and/or extensions for entering text using Markdown syntax.
 
 
-- In this tutorial, we’ll be practicing Markdown syntax in the browser using Dillinger. You’ll be able to enter Markdown-formatted text on the left and immediately see the rendered version alongside it on the right.
+- In this tutorial, we’ll be practicing Markdown syntax in the browser using Dillinger, dillinger.io. You’ll be able to enter Markdown-formatted text on the left and immediately see the rendered version alongside it on the right.
 
 - open existing markdown file from github
 
@@ -29,46 +26,96 @@ You’ll notice that while the right panel features a more elegant rendering of 
 
 Now, let’s dive into the lesson by writing our own Markdown syntax. Create a new document in StackEdit by clicking the folder icon in the upper right and choosing New document. You may enter a title for the document in the textbox on the top of the page.
 
-Headings
-Paragraphs & Line Breaks
-Emphasis
-Lists
-Snippets
-Links
-Images
-Tables
+### Markdown Syntax
+
+#### Headings
+
+Use the hash symbol, #
+
+#### Paragraphs & Line Breaks
+
+Try typing the following sentence into a Github .md file:
+
+```
+Hello!
+
+Today we'll be learning about Markdown syntax.
+This sentence is separated by a single line break from the preceding one.
+```
+
+This renders as:
+
+Hello!
+
+Today we’ll be learning about Markdown syntax. This sentence is separated by a single line break from the preceding one.
+
+Paragraphs must be separated by an empty line. Leave an empty line between syntax. and This to see how this works. In some implementations of Markdown, single line breaks must also be indicated with two empty spaces at the end of each line. This is unnecessary in the GitHub Flavored Markdown variant that StackEdit uses by default.
+
+#### Emphasis
+
+#### Lists
+
+#### Snippets
+
+#### Links
+
+#### Images
+
+#### Tables
+
+Use http://stevecat.net/table-magic/# to make easy markdown tables!
 
 
-- Tools comparison table:
-- Stackedit
-- Dillinger
-- Prose
+### Hugo
 
-http://stevecat.net/table-magic/#
+- In Hugo, you would name your files as ```*.md``` or set markup="markdown" in front matter.
 
+## Resources
 
-Exercises
+### Markdown Cheatsheet
 
-7 exercises in 45 minutes, 5 minutes per exercise then taking up each exercise
+- https://www.markdownguide.org/cheat-sheet
 
-prep how to do exercise
+### Web Tools Comparison:
 
-1.
+| Stackedit                                                             | Dillinger                                   | Prose                               |
+|-----------------------------------------------------------------------|---------------------------------------------|-------------------------------------|
+| Sync from Github - navigate to locate files                           | Sync from Github - navigate to locate files | More closely integrated with github |
+| Automatic commit message from Stackedit                               | Add your own commit message                 | Add your own commit message         |
+| Messes with your markdown: Adds extra Stackedit comment into markdown | No tampering                                | No tampering                        |
 
-prep how to do exercise
-2.
+### Tutorials
 
-prep how to do exercise
-3.
+- The really good Markdown tutorial that we adapted by Sarah Simpkin https://programminghistorian.org/lessons/getting-started-with-markdown
 
-prep how to do exercise
-4.
+### Hugo Exercises
 
-prep how to do exercise
-5.
+* 7 exercises in 45 minutes, about 5 minutes per exercise but it's really go at your own pace
+* Instead of going through together a se of instructions of things you can do with Hugo, we're going to take a less traditional format of independent learning, the same way that you might have to figure out a new technology on your own time, but benefitting from other people around to help you
+* We'll provide minimal written/verbal instruction. We encourage you to read the Hugo documentation and google/duckduckgo for help!
+* If you have questions, ask your neighbour. [Coding learning is social](https://andromedayelton.com/2013/11/25/reflecting-on-introduction-to-python-for-librarians/). If there's still any remaining questions, put up a stickie and one of us will come and help out
+* We're going to take up the exercises after 10, 20, and 45 minutes.
+* When we take up the exercises, We're going to ask you:
+   * Show us how you worked through the problem. What resources did you consult?
+   * Provide everyone with a line by line walkthrough of the answer
+   * What problems did you run into along the way? Talk about the tiny mistakes you might have made along the way, things like syntax errors, formatting issues, and so on.
 
-prep how to do exercise
-6.
+#### Exercise 1
 
-prep how to do exercise
-7.
+#### Exercise 2
+
+10 minute mark: Take up 1, 2
+
+#### Exercise 3
+
+#### Exercise 4
+
+20 minute mark: Take up 3, 4
+
+#### Exercise 5
+
+#### Exercise 6
+
+#### Exercise 7
+
+45 minute mark: Take up 5, 6, 7
