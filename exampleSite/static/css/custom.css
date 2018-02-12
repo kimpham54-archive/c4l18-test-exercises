@@ -17,3 +17,6 @@
 	font-family: 'Playfair Display', sans-serif;
 }
 
+img {
+    max-width: 700px;
+}
