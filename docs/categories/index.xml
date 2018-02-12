@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Good Dogs</title>
-    <link>https://kaitlinnewson.github.io/c4l18-workshop-staticweb/categories/</link>
+    <link>https://kimpham54.github.io/c4l18-test-exercises/categories/</link>
     <description>Recent content in Categories on Good Dogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://kaitlinnewson.github.io/c4l18-workshop-staticweb/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kimpham54.github.io/c4l18-test-exercises/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

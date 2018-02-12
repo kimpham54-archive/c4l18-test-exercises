@@ -1,4 +1,4 @@
-baseurl = "https://kaitlinnewson.github.io/c4l18-workshop-staticweb/"
+baseurl = "https://kimpham54.github.io/c4l18-test-exercises/"
 title = "Good Dogs"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
@@ -13,7 +13,7 @@ canonifyurls = true
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "sea"
+  style = "pink"
   description = "An example Hugo site to display a collection of images."
   copyright = "&copy;2018 Kaitlin Newson"
   sidebarAbout = [

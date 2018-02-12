@@ -1,1 +1,19 @@
 /* custom css */
+
+.sidebar-heading a {
+	font-size: 36px;
+	color: #285d47;
+}
+
+.box-masonry .box-masonry-image {
+	box-shadow: 0 0 18px 5px black;
+}
+
+.box-masonry h4 a {
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.box-masonry p  {
+	font-family: 'Playfair Display', sans-serif;
+}
+
